@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#f8d597;
+}
+ .nav {
+
+    display: flex;
+    justify-content:center;
+
+    text-align: center;
+
+    margin-top: 8px;
+
+    background-color: #bd6b35;
+    height: 80px;
+}
+.logo{
+    display: flex;
+    margin-top: 10px;
+    padding-left: 30px;
+    
+}
+.pedidos p , .cardapio p{
+font-size: 20px;
+
+background-color: #bd6b35;
+color: white;
+
+padding: 10px 50px;
+
+cursor: context-menu;
+}
+.pedidos li , .cardapio li{
+    border: 0.5px solid lightgray;
+    list-style: none;
+    padding: 10px 50px;
+
+    opacity: 0%;
+
+    transition: 0.5s;
+    color: white;
+    
+}
+
+.menu-pedidos:hover .pedidos li , .menu-cardapio:hover .cardapio li{
+    opacity: 100%;
+
+    transition: 0.5s;
+}
+.pedidos li:hover , .cardapio li:hover{
+    background-color:#f3aa48;
+    cursor: pointer;
+}
+.pedidos p:hover , .cardapio p:hover{
+    color:#912206;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.fotos-cozinha{
+    margin-top: 50px;
+    margin-left: 60px;
+
+}
+.fotos-cozinha p{
+    font-size: 22px; 
+    font:  normal verdana;
+    margin-left: 10px;
+    line-height: 30px;
+    color: #bd6b35;
+}
+.fotos-cozinha , .fotos-cozinha p{
+    display:flex;
+}
