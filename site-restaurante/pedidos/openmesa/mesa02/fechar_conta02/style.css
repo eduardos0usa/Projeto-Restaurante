@@ -1,0 +1,14 @@
+.nav {
+    display: flex;
+    justify-content:center;
+
+    text-align: center;
+
+    margin-top: 8px;
+
+    background-color: #bd6b35;
+    height: 80px;
+}
+body{
+    background-color: #f8d597;
+}
