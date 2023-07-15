@@ -1,0 +1,63 @@
+.nav {
+    display: flex;
+    justify-content:center;
+
+    text-align: center;
+
+    margin-top: 8px;
+
+    background-color: #bd6b35;
+    height: 80px;
+}
+body{
+    background-color: #f8d597;
+    color:#bd6b35;
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+} 
+.entradas-menu{
+    justify-content: center;
+    margin-top: 8px;
+    line-height: 35px;
+} 
+ul{
+    font-size: 25px;
+}
+.Pratos-Principais{
+    line-height: 35px;
+}
+input{
+    background-color: #f8d597;
+    border-radius: 5px;
+    border-color: #bd6b35;
+    color: #bd6b35;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+input:hover{
+    background-color:#912206;
+}
+.fechar-conta{
+font-size: 19px;
+background-color: #bd6b35;
+text-decoration: none;
+list-style: none;
+
+padding: 10px 20px;
+
+cursor:context-menu;
+    
+}
+.pedidos p:hover{
+    color: #912206;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #912206;
+}
